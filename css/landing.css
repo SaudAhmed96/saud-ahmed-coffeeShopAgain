@@ -1,0 +1,36 @@
+
+
+.hero{
+    background-color: #FFF0ED;
+}
+
+.card__price{
+    color: #5BACC3;
+    font-size: 33px;
+}
+
+.discount__block{
+    width: 90%;
+
+    background-color: #393939;
+}
+
+.discount__text{
+    color:#FFF;
+    font-size: 60px;
+    margin: 0;
+}
+
+.discount__text--bold{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #FFF0ED;
+}
+
+.footer__text--bold{
+    font-weight: bold;
+}
+
+

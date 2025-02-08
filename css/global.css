@@ -39,6 +39,17 @@ ul {
     list-style-type: none;
 }
 
+nav{
+    background-color: #FFF0ED;
+}
+
+button{
+    background-color: #5BACC3;
+    color: #FFF;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
 
 
 
