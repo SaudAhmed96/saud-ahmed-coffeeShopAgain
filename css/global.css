@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+
+h1, h2 {
+    font-size: 60px;
+    font-weight: 300;
+}
+
+h3, .nav__companyName {
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.nav__companyLink {
+    text-decoration: none;
+    color: #393939;
+    font-weight: 350;
+}
+
+.nav__navLink, .hero__menuLink{
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logoIcon {
+    width: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+/* Primary Colors 
+nitro-blue
+#5BACC3
+nitro-pink
+#FFF0ED
+*/
+
+
+/* Neutral Colors
+
+graphite
+#393939
+light gray
+#F7F7F7
+white
+#FFF
+
+*/
