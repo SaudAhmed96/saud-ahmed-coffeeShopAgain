@@ -1,3 +1,10 @@
+html{
+    font-size: 8px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Open Sans';
     font-weight: 400;
@@ -5,13 +12,17 @@ body {
 
 
 h1, h2 {
-    font-size: 60px;
+    font-size: 7.5rem;
     font-weight: 300;
 }
 
 h3, .nav__companyName {
-    font-size: 48px;
+    font-size: 6rem;
     font-weight: 300;
+}
+
+.nav__companyName{
+    margin: 0;
 }
 
 .nav__companyLink {
@@ -21,18 +32,19 @@ h3, .nav__companyName {
 }
 
 .nav__navLink, .hero__menuLink{
-    font-size: 21px;
+    font-size: 2.625rem;
     font-weight: 400;
     text-decoration: none;
 }
 
 p{
-    font-size: 18px;
+    font-size: 2.25rem;
     font-weight: 400;
 }
 
 .logoIcon {
-    width: 50px;
+    width: 6.25rem;
+    height: 6.25rem;
 }
 
 ul {
@@ -41,14 +53,39 @@ ul {
 
 nav{
     background-color: #FFF0ED;
+    padding: 2rem;
+    /* height: 16rem; */
+        /* margin: auto; */
+}
+
+nav > * {
+    display: inline-block;
+
+}
+
+.nav__navItem {
+    display: inline-block;
+    padding: 2rem;
+    color: #393939;
+}
+
+.nav__navLink{
+    color: #393939;
+}
+
+.nav__navLink--highlight{
+    font-size: 2.625rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: #5BACC3;
 }
 
 button{
     background-color: #5BACC3;
     color: #FFF;
     border: none;
-    border-radius: 2px;
-    font-size: 18px;
+    border-radius: 0.25rem;
+    font-size: 2.25rem;
 }
 
 

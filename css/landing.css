@@ -6,18 +6,17 @@
 
 .card__price{
     color: #5BACC3;
-    font-size: 33px;
+    font-size: 4.125rem;
 }
 
 .discount__block{
     width: 90%;
-
     background-color: #393939;
 }
 
 .discount__text{
     color:#FFF;
-    font-size: 60px;
+    font-size: 7.5rem;
     margin: 0;
 }
 
