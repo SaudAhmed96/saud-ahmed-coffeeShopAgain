@@ -1,8 +1,14 @@
-html{
-    font-size: 8px;
-    box-sizing: border-box;
+*{
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
+}
+
+
+html{
+    font-size: 8px;
+    /* box-sizing: content-box; */
+
 }
 
 body {
@@ -16,19 +22,22 @@ h1, h2 {
     font-weight: 300;
 }
 
-h3, .nav__companyName {
-    font-size: 6rem;
+h3 {
+    font-size: 4.125rem;
     font-weight: 300;
 }
 
 .nav__companyName{
     margin: 0;
+    font-size: 6rem;
+    font-weight: 300;
 }
 
 .nav__companyLink {
     text-decoration: none;
     color: #393939;
     font-weight: 350;
+    padding-right: 2rem;
 }
 
 .nav__navLink, .hero__menuLink{
