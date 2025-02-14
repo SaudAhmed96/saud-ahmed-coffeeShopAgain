@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 
@@ -93,8 +93,11 @@ button{
     background-color: #5BACC3;
     color: #FFF;
     border: none;
-    border-radius: 0.25rem;
-    font-size: 2.25rem;
+    border-radius: 0.5rem;
+    font-size: 2.625rem;
+    font-weight: 400;
+    width: 22.5rem;
+    padding: 2.5rem 0;
 }
 
 
