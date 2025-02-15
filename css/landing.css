@@ -2,10 +2,40 @@
 
 .hero{
     background-color: #FFF0ED;
+    padding: 5rem 15rem;
 }
+
+.hero__left{
+    display: inline-block;
+    width: 50rem;
+    vertical-align: top;
+    margin-top: 20rem;
+    /* margin-right: 25%; */
+}
+
+
+.hero__right{
+    display: inline-block;
+    margin-left: 35rem;
+}
+
+.hero__title{
+    /* padding-bottom: 2rem; */
+}
+
+.hero__description{
+    padding: 2rem 0; 
+}
+
+.hero__button{
+    margin-top: 4rem;
+}
+
 
 .products{
     padding: 3rem;
+    text-align: center;
+    background-color: #f7f7f7;
 }
 
 .products__top{
@@ -13,7 +43,11 @@
 }
 
 .products__title{
-    margin-top: 4rem;
+    margin: 4rem 0;
+}
+
+.products__button{
+    margin: 3rem 0;
 }
 
 .card{
@@ -26,6 +60,7 @@
     box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
     text-align: center;
     vertical-align: top;
+    background-color: #FFF;
 }
 
 .card__img{
@@ -43,14 +78,22 @@
     margin-top: 1rem;
 }
 
+.discount{
+    padding: 20rem 5rem;
+    text-align: center;
+    background-color: #FFF;
+}
+
 .discount__block{
     width: 90%;
     background-color: #393939;
+    margin: auto;
+    padding: 3.5rem 2.5rem;
 }
 
 .discount__text{
     color:#FFF;
-    font-size: 7.5rem;
+    font-size: 5.625rem;
     margin: 0;
 }
 
@@ -60,6 +103,17 @@
 
 footer{
     background-color: #FFF0ED;
+    padding: 7.5rem;
+}
+
+.footer__block{
+    display: inline-block;
+    margin: 0 7.5rem;
+    /* text-align: center; */
+}
+
+.footer__header{
+    margin-bottom: 2.5rem;
 }
 
 .footer__text--bold{
