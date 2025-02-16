@@ -54,6 +54,7 @@ p{
 .logoIcon {
     width: 6.25rem;
     height: 6.25rem;
+    vertical-align:text-bottom;
 }
 
 ul {
