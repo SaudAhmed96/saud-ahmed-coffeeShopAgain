@@ -183,7 +183,7 @@ footer{
     padding: 7.5rem;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footer__block{

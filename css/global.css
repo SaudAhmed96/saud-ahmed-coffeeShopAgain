@@ -103,6 +103,7 @@ button{
     font-weight: 400;
     width: 22.5rem;
     padding: 2.25rem 0;
+    cursor: pointer;
 }
 
 
