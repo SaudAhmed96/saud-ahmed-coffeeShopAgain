@@ -64,17 +64,21 @@ ul {
 nav{
     background-color: #FFF0ED;
     padding: 2rem;
-    /* height: 16rem; */
-        /* margin: auto; */
+    display: flex;
+    justify-content: space-between;
 }
 
-nav > * {
-    display: inline-block;
+.nav__right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.nav__navList{
+    display: flex;
 }
 
 .nav__navItem {
-    display: inline-block;
     padding: 2rem;
     color: #393939;
 }
@@ -98,7 +102,7 @@ button{
     font-size: 2.625rem;
     font-weight: 400;
     width: 22.5rem;
-    padding: 2.5rem 0;
+    padding: 2.25rem 0;
 }
 
 

@@ -110,14 +110,58 @@
 }
 
 .discount{
-    padding: 20rem 5rem;
+    padding: 15rem;
     background-color: #FFF;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 
 }
 
+.discount__top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount__topLeft{
+    width: 57rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.discount__header{
+    margin: 2.5rem 0;
+}
+
+.discount__logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+}
+
+.discount__button{
+    margin: 2.5rem 0;
+}
+
+.discount__imgBlock{
+    background-image: url("../assets/images/coldbrewbackground.png");
+    background-size: cover;
+    width: 50rem;
+    height: 50rem;
+    margin: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discount__image{
+    height: 35rem;
+}
+
 .discount__block{
+    margin-top: 20rem;
     width: 90%;
     background-color: #393939;
     padding: 3.5rem 2.5rem;
