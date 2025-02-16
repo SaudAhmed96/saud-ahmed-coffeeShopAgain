@@ -11,15 +11,36 @@
     align-items: center;
 }
 
-.hero__block{
-    background-color: #393939;
+.hero__top-container{
+    position: relative;
+}
+
+.hero__posBlock{
+    position: relative;
     width: 37.5rem;
     height: 25rem;
-    border-radius: 8rem;
+    border-radius: 1rem;
+    border: 5px solid #5BACC3;
+    z-index: 5;
 
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.hero__block{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+
+    background-color: #393939;
+    width: 37.5rem;
+    height: 25rem;
+    border-radius: 1rem;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .hero__title{
