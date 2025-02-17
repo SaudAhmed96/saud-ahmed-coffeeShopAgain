@@ -38,6 +38,7 @@ ul {
   background-color: #FFF0ED;
   padding: 2rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 }
 .nav__companyName {
@@ -52,11 +53,14 @@ ul {
 }
 .nav__right {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 .nav__navList {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .nav__navItem {
   padding: 2rem;
@@ -82,6 +86,7 @@ ul {
 
 .button__container {
   position: relative;
+  cursor: pointer;
 }
 .button__style {
   display: block;
@@ -95,13 +100,18 @@ ul {
   font-weight: 400;
   width: 22.5rem;
   padding: 2.25rem 0;
-  cursor: pointer;
   position: absolute;
   top: 1rem;
   left: 0.7rem;
-  z-index: 5;
+  z-index: 11;
+}
+.button__style:hover {
+  top: 0.1rem;
+  left: 0rem;
+  border: 2px solid black;
 }
 .button__border {
+  display: block;
   width: 22.5rem;
   padding: 2.25rem 0;
   border-radius: 0.5rem;

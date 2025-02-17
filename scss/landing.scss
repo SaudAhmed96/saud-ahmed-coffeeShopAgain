@@ -130,6 +130,14 @@
             position: relative;
             width: 50rem;
             height: 50rem;
+
+            &:hover{
+                .discount__image{
+                    animation: rotate-can 1s infinite linear;
+                    animation-duration: 2s;
+                    cursor: pointer;
+                }
+            }
         }
     }
 
@@ -165,10 +173,12 @@
     &__block{
         margin-top: 20rem;
         width: 90%;
-        background-color: #393939;
+        // background-color: #393939;
         padding: 3.5rem 2.5rem;
         text-align: center;
         position: relative;
+
+        animation: discountBanner 2.5s linear infinite;
     }
 
     &__text{
@@ -205,3 +215,20 @@ footer{
 }
 
 
+@keyframes rotate-can {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes discountBanner {
+    0%{
+        background-color: #5BACC3;
+    }
+    100%{
+        background-color: #393939;
+    }
+}
