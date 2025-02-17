@@ -1,0 +1,136 @@
+@use "variables";
+@use "mixins";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 8px;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-size: 7.5rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 4.125rem;
+    font-weight: 300;
+}
+
+p{
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.nav {
+    background-color: #FFF0ED;
+    padding: 2rem;
+
+    @include flexBox(row, space-between);
+
+    &__companyName{
+        font-size: 6rem;
+        font-weight: 300;
+    }
+
+    &__companyLink {
+        text-decoration: none;
+        color: #393939;
+        font-weight: 350;
+        padding-right: 2.5rem;
+    }
+
+    &__right{
+        @include flexBox(row);
+        align-items: center;
+    }
+
+    &__navList{
+        @include flexBox(row);
+    }
+
+    &__navItem{
+        padding: 2rem;
+        color: #393939;
+    }
+
+    &__navLink{
+        color: #393939;
+        font-size: 2.625rem;
+        font-weight: 400;
+        text-decoration: none;
+
+        &--highlight{
+            font-size: 2.625rem;
+            font-weight: 400;
+            text-decoration: none;
+            color: #5BACC3;
+        }
+    }
+}
+
+// .nav__navLink, .hero__menuLink{
+//     font-size: 2.625rem;
+//     font-weight: 400;
+//     text-decoration: none;
+// }
+
+.logoIcon {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.button{
+    &__container{
+        position: relative;
+    }
+
+    &__style{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        background-color: #5BACC3;
+        color: #FFF;
+        border: none;
+        border-radius: 0.5rem;
+        font-size: 2.625rem;
+        font-weight: 400;
+        width: 22.5rem;
+        padding: 2.25rem 0;
+        cursor: pointer;
+    
+        position: absolute;
+        top: 1rem;
+        left: 0.7rem;
+        z-index: 5;
+    }
+
+    &__border{
+        width: 22.5rem;
+        padding: 2.25rem 0;
+        border-radius: 0.5rem;
+        font-size: 2.625rem;
+        color:transparent;
+    
+        position: relative;
+        border: 2px solid black;
+        z-index: 10;
+    }
+}
+
+
+

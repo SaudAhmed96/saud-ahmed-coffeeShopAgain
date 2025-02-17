@@ -1,0 +1,207 @@
+@use './partials/global' as *;
+
+.hero{
+    background-color: #FFF0ED;
+    padding: 5rem 15rem;
+    @include flexBox(row, space-around);
+
+    &__left{
+        width: 50rem;
+        @include flexBox(column, center);
+    }
+
+    &__right{
+        margin-left: 35rem;
+    }
+
+    &__button{
+        position: relative;
+    }
+
+    &__buttonLink{
+        text-decoration: none;
+    }
+
+    &__description{
+        padding: 2rem 0; 
+    }
+
+}
+
+
+.products{
+    padding: 4rem;
+    text-align: center;
+    background-color: #f7f7f7;
+
+    &__top{
+        @include flexBox(row);
+    }
+
+    &__bottom{
+        @include flexBox(row);
+    }
+
+    &__title{
+        margin: 4rem 0;
+    }
+
+    &__button{
+        &__container{
+            margin: 3rem 0;
+        }
+    }
+}
+
+.card{
+    width: 41.25rem;
+    height: 55rem;
+    margin: 4rem;
+    border-radius: 1.25rem;
+    box-shadow: 0 5px 9px -1px rgba(0,0,0,0.25);
+    background-color: #FFF;
+
+    @include flexBox(column, space-between);
+
+    &__img{
+        text-align: center;
+    }
+
+    &__price{
+        color: $nitro-blue;
+        font-size: 4.125rem;
+        font-weight: bold;
+    }
+
+    &__top{
+        padding: 2.5rem;
+    }
+
+    &__bottom{
+        @include flexBox(row, space-between);
+        background-color: #FFF0ED;
+        width: 100%;
+        border-radius: 0 0 1.25rem 1.25rem;
+        padding: 4rem 2rem;
+    }
+
+    &__amount{
+        color: #909090;;
+    }
+
+    &__left{
+        @include flexBox(column);
+        align-items: flex-start;
+    }
+
+}
+
+
+.discount{
+    padding: 15rem;
+    background-color: #FFF;
+    @include flexBox(column, center);
+
+    &__top{
+        @include flexBox(row, space-between);
+    }
+
+    &__topLeft{
+        width: 57rem;
+        @include flexBox(row);
+        flex-direction: column;
+    }
+
+    &__header{
+        margin: 2.5rem 0;
+    }
+
+    &__logos{
+        @include flexBox(row, space-between);
+        padding: 2.5rem 0;
+    }
+
+    &__button{
+        margin: 2.5rem 0;
+    }
+
+    &__topRight{
+        &-container{
+            position: relative;
+            width: 50rem;
+            height: 50rem;
+        }
+    }
+
+    &__posContainer{
+        position: relative;
+        width: 50rem;
+        height: 50rem;
+    
+        border:5px #5BACC3 solid;
+        z-index: 5;
+    }
+
+    &__imgBlock{
+        position: absolute;
+        top:0.75rem;
+        left: 0.75rem;
+    
+        background-image: url("../assets/images/coldbrewbackground.png");
+        background-size: cover;
+        width: 50rem;
+        height: 50rem;
+        margin: 2.5rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__image{
+        height: 35rem;
+    }
+
+    &__block{
+        margin-top: 20rem;
+        width: 90%;
+        background-color: #393939;
+        padding: 3.5rem 2.5rem;
+        text-align: center;
+        position: relative;
+    }
+
+    &__text{
+        color:#FFF;
+        font-size: 5.625rem;
+        margin: 0;
+
+        &--bold{
+            font-weight: bold;
+        }
+    }
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF0ED;
+    padding: 7.5rem;
+
+    &__block{
+        margin: 0 7.5rem;
+    }
+
+    &__header{
+        margin-bottom: 2.5rem;
+    }
+
+    &__text{
+        &--bold{
+            font-weight: bold;
+        }
+    }
+}
+
+

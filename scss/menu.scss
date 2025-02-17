@@ -1,0 +1,118 @@
+@use './partials/global' as *;
+
+
+.hero{
+    &__top{
+        background-image: url("../assets/images/coffee-circle.jpg");
+        background-size: cover;
+        background-position:center;
+        width: 100%;
+        height: 87.5rem;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &-container{
+            position: relative;
+        }
+    }
+
+    &__posBlock{
+        position: relative;
+        width: 37.5rem;
+        height: 25rem;
+        border-radius: 1rem;
+        border: 5px solid #5BACC3;
+        z-index: 5;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__block{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    
+        background-color: #393939;
+        width: 37.5rem;
+        height: 25rem;
+        border-radius: 1rem;
+    }
+
+    &__title{
+        color: #FFF;
+        margin: 0;
+    }
+
+    &__menuList{
+        padding: 0;
+        margin:0;
+        text-align: center;
+        background-color: #393939;
+        width:100%;
+        height: 10rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__menuItem{
+        color: #FFF;
+        font-weight: 400;
+        border-left: 0.75rem solid #5BACC3;
+        padding: 0 2rem;
+    }
+
+    &__menuLink{
+        color: #FFF;
+        font-weight: 400;
+        cursor: pointer;
+
+        font-size: 2.625rem;
+        font-weight: 400;
+        text-decoration: none;
+        // @extend .hero__menuItem;
+    }
+}
+
+.menu{
+
+    &__section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        background-color: #FFF0ED;
+        padding: 3rem;
+        padding-bottom: 5rem;
+
+        &--cool{
+            background-color: #F7F7F7;
+        }
+    }
+
+    &__item{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &-title{
+            margin-top: 4rem;
+        }
+
+        &-description{
+            font-style: italic;
+            width: 61rem;
+            text-align: center;
+        }
+
+        &-price{
+            color: #5BACC3;
+        }
+    }
+}

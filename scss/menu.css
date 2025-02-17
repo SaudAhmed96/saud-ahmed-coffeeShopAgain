@@ -1,0 +1,204 @@
+/* Primary Colors */
+/* Neutral Colors*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 8px;
+}
+
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-size: 7.5rem;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 4.125rem;
+  font-weight: 300;
+}
+
+p {
+  font-size: 2.25rem;
+  font-weight: 400;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  background-color: #FFF0ED;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__companyName {
+  font-size: 6rem;
+  font-weight: 300;
+}
+.nav__companyLink {
+  text-decoration: none;
+  color: #393939;
+  font-weight: 350;
+  padding-right: 2.5rem;
+}
+.nav__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav__navList {
+  display: flex;
+}
+.nav__navItem {
+  padding: 2rem;
+  color: #393939;
+}
+.nav__navLink {
+  color: #393939;
+  font-size: 2.625rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+.nav__navLink--highlight {
+  font-size: 2.625rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: #5BACC3;
+}
+
+.logoIcon {
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
+.button__container {
+  position: relative;
+}
+.button__style {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background-color: #5BACC3;
+  color: #FFF;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 2.625rem;
+  font-weight: 400;
+  width: 22.5rem;
+  padding: 2.25rem 0;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  left: 0.7rem;
+  z-index: 5;
+}
+.button__border {
+  width: 22.5rem;
+  padding: 2.25rem 0;
+  border-radius: 0.5rem;
+  font-size: 2.625rem;
+  color: transparent;
+  position: relative;
+  border: 2px solid black;
+  z-index: 10;
+}
+
+.hero__top {
+  background-image: url("../assets/images/coffee-circle.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 87.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__top-container {
+  position: relative;
+}
+.hero__posBlock {
+  position: relative;
+  width: 37.5rem;
+  height: 25rem;
+  border-radius: 1rem;
+  border: 5px solid #5BACC3;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__block {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  background-color: #393939;
+  width: 37.5rem;
+  height: 25rem;
+  border-radius: 1rem;
+}
+.hero__title {
+  color: #FFF;
+  margin: 0;
+}
+.hero__menuList {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #393939;
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__menuItem {
+  color: #FFF;
+  font-weight: 400;
+  border-left: 0.75rem solid #5BACC3;
+  padding: 0 2rem;
+}
+.hero__menuLink {
+  color: #FFF;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 2.625rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.menu__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF0ED;
+  padding: 3rem;
+  padding-bottom: 5rem;
+}
+.menu__section--cool {
+  background-color: #F7F7F7;
+}
+.menu__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu__item-title {
+  margin-top: 4rem;
+}
+.menu__item-description {
+  font-style: italic;
+  width: 61rem;
+  text-align: center;
+}
+.menu__item-price {
+  color: #5BACC3;
+}/*# sourceMappingURL=menu.css.map */
